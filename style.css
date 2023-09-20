@@ -1,0 +1,67 @@
+ h1 {
+    color: orange;
+    background-image: url(Superman_logo.jpg);
+  }
+
+  h2 {
+    color: orange;
+  }
+
+  h4 {
+    color: orange;
+    background-image: url(spiderman.jpg);
+  }
+
+  p {
+    color: #a200ffa3;
+  }
+
+h3 {
+    color:orange 
+}
+a:link {
+    color: #ff0000;
+  }
+  a:visited {
+    color: #eaff00;
+  }
+  a:hover {
+    color: #00ff1a;
+  }  
+  .specialp {
+    color: #0000ff;
+      background-color: #e1ff00;  
+  }
+
+  #specialid {
+    background-color: #00ff00;
+  }
+
+.textcenter {
+    text-align: center;
+}
+
+
+
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  
+}
+
+.fontstyle {
+  font-style: italic;
+}
+
+.imgbox {
+  border: 10px solid #000000;
+  padding: 5px 5px 5px 5px;
+  margin: 20px 20px 20px 20px;
+  background-color: #c4e72b;
+}
+
+
+
+
+
+
