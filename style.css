@@ -1,67 +1,101 @@
  h1 {
-    color: orange;
-    background-image: url(Superman_logo.jpg);
-  }
+    font-family:Helvetica;
+    font-weight: normal;
+    background-image: none;
+    text-align:left;
+
+ }
 
   h2 {
-    color: orange;
+  
+    font-family:Helvetica;
+    font-weight: solid;
+    text-align:left;
+
+
   }
 
-  h4 {
-    color: orange;
-    background-image: url(spiderman.jpg);
-  }
-
-  p {
-    color: #a200ffa3;
-  }
-
-h3 {
-    color:orange 
-}
-a:link {
-    color: #ff0000;
-  }
-  a:visited {
-    color: #eaff00;
-  }
   a:hover {
-    color: #00ff1a;
+    color: red;
+    text-decoration: underline;
   }  
-  .specialp {
-    color: #0000ff;
-      background-color: #e1ff00;  
-  }
 
-  #specialid {
-    background-color: #00ff00;
-  }
+.fontstyle {
+  font-style:
+}
 
-.textcenter {
-    text-align: center;
+nav ul {
+  margin:0; 
+  padding:0;
+  list-style-type: none;
+  
+
+
+
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: blue;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  text-decoration: none;
+
+}
+
+nav li {
+  display: inline-block;
+  padding: 0;
+  margin: 10px;
+  width: 150px;
 }
 
 
 
-.customtext {
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+
+.topborder{
+  border-top: 5px solid #000000;
   
 }
 
-.fontstyle {
+
+.spanstyle{
+  color:#0000ff
+}
+
+body {
+  background-image: url(a5bg.png);
+  background-repeat: repeat-y repeat-x;
+}      
+
+
+
+
+a.link{
+  color:#ffffff
+  
+
+
+}
+
+.boxmodel {
+  border: 1px solid #ffffff;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+  background-color: #0000ff;
+  color:white
+} 
+
+
+
+#divexample {
+  background-color:#ffffff
+}
+
+.customtext {
+  font-family: sans-serif;
   font-style: italic;
-}
-
-.imgbox {
-  border: 10px solid #000000;
-  padding: 5px 5px 5px 5px;
-  margin: 20px 20px 20px 20px;
-  background-color: #c4e72b;
-}
-
-
-
-
-
-
+  font-weight: bold;
+  font-size: 20px;
