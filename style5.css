@@ -1,28 +1,9 @@
- h1 {
-    font-family:Helvetica;
-    font-weight: normal;
-    background-image: none;
-    text-align:left;
+ 
 
- }
 
-  h2 {
   
-    font-family:Helvetica;
-    font-weight: solid;
-    text-align:left;
 
 
-  }
-
-  a:hover {
-    color: red;
-    text-decoration: underline;
-  }  
-
-.fontstyle {
-  font-style:
-}
 
 nav ul {
   margin:0; 
@@ -38,8 +19,8 @@ nav li a {
   color: #ffffff;
   display: block;
   border: 1px solid #000000;
-  padding: 10px;
   background-color: blue;
+  padding: 15px;
   background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
   text-decoration: none;
 
@@ -47,55 +28,156 @@ nav li a {
 
 nav li {
   display: inline-block;
-  padding: 0;
+  
   margin: 10px;
-  width: 150px;
+  width: 200px;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header {
+  grid-column: span 12;
+  border: 1px solid black;
+  background-color:#0000ff;
 }
 
-
-
-
-.topborder{
-  border-top: 5px solid #000000;
+footer {
+  grid-column: span 12;
+  border: 5px solid blue;
+  background-color: red;
   
 }
 
 
-.spanstyle{
-  color:#0000ff
-}
 
-body {
-  background-image: url(a5bg.png);
-  background-repeat: repeat-y repeat-x;
-}      
-
-
-
-
-a.link{
-  color:#ffffff
-  
-
+main {
+  grid-column: span 9;
+  background: ;
+  padding-left: 20px;
 
 }
 
-.boxmodel {
-  border: 1px solid #ffffff;
-  padding: 20px 20px 20px 20px;
-  margin: 10px 10px 10px 10px;
-  background-color: #0000ff;
-  color:white
+nav3{
+  grid-column: span 9;
+  background-color:lightblue;
+  }
+
+
+
+
+
+#main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border: 5px solid blue;
+}
+
+#EAO{
+  float: left;
+  grid-column: span ;
+  padding-left: 20px;
+}
+
+Nav2{
+  grid-column: span 3;
+background-color: lightblue;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr)
+
+
+}
+
+h1{
+border: 5px solid black;
+padding: 20px;
+color:lightblue
 } 
 
 
-
-#divexample {
-  background-color:#ffffff
+#Rocks{
+  float: right;
+  grid-column: span 3;
+  width: 200px;
+  
 }
 
-.customtext {
-  font-family: sans-serif;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 20px;
+main2{
+  grid-column: span 3;
+  padding-left: 20px;
+  background-color:#ffffff;
+
+}
+
+nav4{
+  background: #ffffff;
+grid-column: span 3;
+padding-right: 50px;
+
+}
+
+
+
+
+
+#Evelyn{
+  
+  grid-column: span 3;
+  width: 200px;
+  padding-right: 200px;
+}
+
+#Waymond{
+  
+  grid-column: span 6;
+  width: 200px;
+  padding-right: 200px;
+
+}
+
+#Joy{
+  
+  grid-column: span 3;
+  width: 200px;
+  
+}
+
+main3{
+grid-column: span 3;
+padding-right: 50px;
+
+
+}
+
+main5{
+grid-column: span 3;
+}
+
+h2{
+  border-bottom:5px solid blue ;
+
+  } 
+  
+  #isu{
+    grid-column: span 12;
+    background-color: red;
+  
+  }
