@@ -1,0 +1,178 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 20px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #999999;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr)
+
+}
+
+
+.dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span
+}
+
+
+
+nav ul {
+  margin:0; 
+  padding:0;
+  list-style-type: none;
+  
+
+
+
+}
+
+nav li a {
+  color: #ffffff;
+  display: block;
+  border: 1px solid #000000;
+  background-color: blue;
+  padding: 15px;
+  background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+  text-decoration: none;
+
+}
+
+#nav2{
+  color: #ffffff;
+  display: block;
+  background-color:linear-gradient(to bottom, #ff0d00, #ff0d00, #ff0d00, #ff0d00, #ff0d00);
+  text-decoration: none;
+  padding-top: 60px;
+}
+
+
+nav li {
+  display: inline-block;
+  
+  margin: 10px;
+  width: 200px;
+}
+
+main{
+  grid-column: span 9;
+  padding-right: 50px;
+}
+
+#Waymond{
+  
+  grid-column: span 1;
+  width: 300px;
+  float: right;
+
+  }
+
+  #Evelyn{
+  
+    grid-column: span 2;
+    width: 300px;
+    padding-top: 100px;
+  }
+
+  #Joy{
+  
+    grid-column: span 3;
+    width: 300px;
+    
+    }
+
+   
+
+  
+nav{
+  grid-column: span 9;
+}
+
+
+
+header{
+  border: 1px solid lightgray;
+  grid-column: span 12;
+}
+
+
+h1{
+  border:1px solid black 
+}
+
+#main2 {
+
+grid-column: span 2;
+width: 300px;
+
+}
+
+
+#work1{
+  grid-column: span 1;
+  width: 200px;
+  float: left;
+  padding:2
+  
+}
+
+#work2{
+  grid-column: span 3;
+  width: 200px;
+  padding-right: 200px;
+}
+
+#space{
+  grid-column: span 3;
+  width: 200px;
+  float: right;
+  padding-left: 20px;
+  
+}
+
+#work3{
+  grid-column: span 6;
+  float: left;
+  padding-left: 500px;
+  width: 150px;
+}
+
+#space2{
+
+  padding-left: 400px;
+  grid-column: span 6;
+  width: 200px;
+  float: right;
+  }
+  #space3{
+    grid-column: span 3;
+    width: 200px;
+    float: left;
+padding-left: 300px;
+}
+
+
+.roundedbox {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-radius: 10px;
+}         
+
+
+
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+}
+
+h1 { font-family: 'Creepster'}
