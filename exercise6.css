@@ -26,7 +26,7 @@ nav li a {
 }
 
 main {
-  grid-column: span 9;
+  grid-column: span 12;
   background:black;
 
 }
