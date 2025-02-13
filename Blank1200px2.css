@@ -1,13 +1,33 @@
 body {
-  background-color: #000000;
-}
-.star1 {
-  position: absolute;
-  animation: star1-ani 10s linear infinite;
+  background-color: blue;
 }
 
-@keyframes star1-ani {
-  0%   { opacity: .0; left:0; }
-  50%  { opacity: .5; }
-  100% { opacity: .0; left: 1000px; }
+#SVGCTK { width: 500px; display: block; }
+
+#I {
+  animation: cfade 1.0s;
+}
+
+@keyframes cfade {
+  0%   { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0);}
+}
+#S{
+  animation: tfade 1.0s;
+  transform-origin: center;
+}
+
+@keyframes tfade {
+  0%   { transform: rotate(360deg);}
+  100% { transform: rotate(0deg);}
+}
+
+#U {
+  animation: kfade 1.0s;
+  transform-origin: right top;
+}
+
+@keyframes kfade {
+  0%   { transform: scale(0.1);}
+  100% { transform: scale(1.0);}
 }
