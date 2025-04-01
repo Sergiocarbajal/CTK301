@@ -27,7 +27,7 @@ nav li a {
 
 main {
   grid-column: span 12;
-  background:black;
+  background:#999999;
 
 }
 
@@ -60,9 +60,9 @@ footer {
 }
 
 p {
-  color: #a200ffa3;
+  color: #000000;
 }
 
 h2 {
-  color: #a200ffa3;
+  color: #000000;
 }
